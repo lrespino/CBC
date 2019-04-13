@@ -10,4 +10,15 @@ body {
 
 header {
     color: #333333;
+    font: 28px;
+    
+}
+
+.container{
+    width: 1024px;
+    margin: 0 auto;
+}
+
+#main-bio,#contact-info,#bio-image {
+    float: left;
 }
