@@ -1,6 +1,13 @@
-body {
+
+body { 
     background-color: #efeee7;
     font-family: Georgia, 'Times New Roman', Times, serif;
-    color: #333333
+    color: #333333;
+    margin: 0;
+    padding: 0;
+
 }
 
+header {
+    color: #333333;
+}
