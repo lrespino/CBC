@@ -1,0 +1,42 @@
+body{
+      background: #red;
+}
+
+header{
+  background: #ccc;
+      padding: 20px;
+      margin-bottom: 20px;
+
+}
+
+#left{
+      float: left;
+      width: 33.3%;
+      background: #30948D
+
+}
+
+#middle{
+  float: left;;
+  width: 33.3%;
+  background: #9E1212 
+}
+
+#right{
+  float: right;
+  width: 33.3%;
+  background: #30948D 
+}
+
+#full{
+  
+  background: #a6b747
+}
+
+#division{
+  background: #6ea3da
+}
+
+footer{
+  background: #FFA500
+}
