@@ -1,0 +1,22 @@
+
+
+a{
+    font-size: 18PX;
+    background-color: white;
+
+
+}
+
+a:active{
+
+    background-color: aqua;
+}
+a:hover{
+    background-color: blue;
+}
+
+a:focus{
+    background-color: rebeccapurple;
+
+}
+
