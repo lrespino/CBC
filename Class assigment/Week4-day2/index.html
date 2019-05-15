@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+<button id = "button" type="button" class="btn btn-primary">Primary</button>
+<div id =random-number >
+    
+</div>
+<script type="text/javascript">
+
+$(document).ready(function() {
+    
+$("#button").on("click", function(){
+    // var targetDiv = document.getElementById("random-number");
+    // var newDiv = document.createElement("div");
+    var number = 100000 + Math.floor(Math.random() * 100000);
+    // alert("Your random number is " + number);
+    
+    
+    // targetDiv.appendChild(newDiv);
+    $("#random-number").appendChild(number);
+    
+       
+      
+
+      });
+
+
+
+    });
+
+
+</script>
+
+
+
+
+</body>
+
+</html>
