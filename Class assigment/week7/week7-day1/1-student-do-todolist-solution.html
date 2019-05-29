@@ -60,14 +60,14 @@
       // Lastly add a checkmark inside.
 
       var toDoClose = $("<button>");
-
+          //******store toDoClose
       toDoClose.attr("data-to-do", toDoCount);
       toDoClose.addClass("checkbox");
       toDoClose.text("✓");
 
       // Append the button to the to do item
       toDoItem = toDoItem.prepend(toDoClose);
-
+          // **** append stored button
       // Add the button and to do item to the to-dos div
       $("#to-dos").append(toDoItem);
 
